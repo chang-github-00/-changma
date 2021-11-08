@@ -1,0 +1,18 @@
+papers:
+
+  - title: "Domain Adaptation via Mutual Information Maximization"
+    authors: "Haiteng Zhao, <b>Chang Ma</b>, Qinyu Chen, Zhihong Deng"
+    venue: "Preprint"
+    paper_pdf: "/assets/publications/2021_sida/paper.pdf"
+    thumbnail: "assets/publications/2021_sida/thumbnail.png"
+    selected: y
+
+  
+  - title: "Switch-GPT: an effective method for constrained text generation under few-shot settings"
+    authors: "<b>Chang Ma*</b>, Song Zhang*, Gehui Shen, Zhihong Deng"
+    venue: "AAAI Student Abstract 2021"
+    paper_pdf: "/assets/publications/2021_few_shot_nlg/paper.pdf"
+    thumbnail: "assets/publications/2021_few_shot_nlg/thumbnail.png"
+    selected: y
+
+  

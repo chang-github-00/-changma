@@ -1,0 +1,24 @@
+projects:
+  - title: "Protein Ligand Docking"
+    subtitle: "Predicting Complex Conformations with Deep Learning Energy Function"
+    thumbnail: "assets/projects/2021_docking/thumbnail.jpg"
+    url: "projects/2021_docking.html"
+    selected: y
+
+  - title: "TorchProtein"
+    subtitle: "Multi-task Learning For Protein Representations"
+    thumbnail: "assets/projects/2021_torchprotein/thumbnail.png"
+    url: "https://torchdrug.ai"
+    selected: y
+
+  - title: "RNN Optimization"
+    subtitle: "Will RNN Gradients Explode?"
+    thumbnail: "assets/projects/2020_rnn/thumbnail.png"
+    url: "projects/2020_rnn.html"
+    selected: n
+  
+  - title: "Doorway Effect CTM"
+    subtitle: "Talk at IJTCS"
+    thumbnail: "assets/projects/2021_ctm/thumbnail.png"
+    url: "projects/2021_ctm.html"
+    selected: y

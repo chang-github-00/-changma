@@ -1,0 +1,38 @@
+experiences:
+
+- place: "HongKong University"
+  time: "Sep 2022 - "
+  title: "Ph.D. Student"
+  subtitle: "CS, NLP"
+  category: "school"
+
+- place: "Microsoft STC Asia"
+  time: "Nov 2021 - "
+  title: "Software Engineer Research Intern"
+  subtitle: "Bing Advertisement Group, NLP"
+  category: "work"
+
+- place: "MILA"
+  time: "Jan-Oct 2021"
+  title: "Research Intern"
+  subtitle: "DeepGraph Group, Computational Biology"
+  category: "work"
+
+- place: "Nanyang Technological University"
+  time: "June-Nov 2021"
+  title: "Research Intern"
+  subtitle: "NAIL Group, NLP"
+  category: "work"
+
+
+- place: "Peking University"
+  time: "July 2019 - July 2022"
+  title: "Research Assistant"
+  subtitle: "Sigma Lab, Department of Machine Intelligence"
+  category: "work"
+
+- place: "Peking University"
+  time: "Sep 2018 - July 2022"
+  title: "B.Sc. Student"
+  subtitle: "Machine Intelligence "
+  category: "school"
