@@ -18,8 +18,8 @@ papers:
   - title: "Certified Robustness Against Natural Language Attacks by Causal Intervention"
     authors: "Haiteng Zhao*, <b>Chang Ma*</b>, Xinshuai Dong*, Anh Tuan Luu, Zhi-Hong Deng, Hanwang Zhang"
     venue: "ICML 2022"
-    paper_pdf: "/assets/publications/2021_few_shot_nlg/paper.pdf"
-    thumbnail: "assets/publications/2021_few_shot_nlg/thumbnail.png"
+    paper_pdf: "/assets/publications/2022_ciss/paper.pdf"
+    thumbnail: "assets/publications/2022_ciss/thumbnail.png"
     selected: y
 
   
