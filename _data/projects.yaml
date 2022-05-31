@@ -21,4 +21,4 @@ projects:
     subtitle: "Talk at IJTCS"
     thumbnail: "assets/projects/2021_ctm/thumbnail.png"
     url: "projects/2021_ctm.html"
-    selected: y
+    selected: n
