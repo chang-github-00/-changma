@@ -1,25 +1,53 @@
 papers:
-
-  - title: "Domain Adaptation via Mutual Information Maximization"
-    authors: "Haiteng Zhao, <b>Chang Ma</b>, Qinyu Chen, Zhihong Deng"
-    venue: "IJCAI 2022 Long Presentation"
-    paper_pdf: "/assets/publications/2021_sida/paper.pdf"
-    thumbnail: "assets/publications/2021_sida/thumbnail.png"
+  - title: "Retrieved Sequence Augmentation for Protein Representation Learning"
+    authors: "<b>Chang Ma</b>, Haiteng Zhao, Lin Zheng, Jiayi Xin, Qintong Li, Lijun Wu, Zhihong Deng, Yang Lu, Qi Liu, Lingpeng Kong"
+    venue: "Preprint"
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2023.02.22.529597v1.full.pdf"
+    code: https://github.com/HKUNLP/RSA
+    thumbnail: "assets/publications/2023_protein/thumbnail.jpg"
     selected: y
-
   
-  - title: "Switch-GPT: an effective method for constrained text generation under few-shot settings"
-    authors: "<b>Chang Ma*</b>, Song Zhang*, Gehui Shen, Zhihong Deng"
-    venue: "AAAI Student Abstract 2021"
-    paper_pdf: "/assets/publications/2021_few_shot_nlg/paper.pdf"
-    thumbnail: "assets/publications/2021_few_shot_nlg/thumbnail.png"
-    selected: y
 
   - title: "Certified Robustness Against Natural Language Attacks by Causal Intervention"
     authors: "Haiteng Zhao*, <b>Chang Ma*</b>, Xinshuai Dong*, Anh Tuan Luu, Zhi-Hong Deng, Hanwang Zhang"
     venue: "ICML 2022"
-    paper_pdf: "/assets/publications/2022_ciss/paper.pdf"
+    paper_pdf: "https://arxiv.org/pdf/2205.12331.pdf"
+    code: https://github.com/zhao-ht/ConvexCertify
     thumbnail: "assets/publications/2022_ciss/thumbnail.png"
     selected: y
+
+  - title: "Domain Adaptation via Mutual Information Maximization"
+    authors: "Haiteng Zhao, <b>Chang Ma</b>, Qinyu Chen, Zhihong Deng"
+    venue: "IJCAI 2022 Long Presentation"
+    paper_pdf: "https://arxiv.org/pdf/2110.12184.pdf"
+    code: https://github.com/zhao-ht/SIDA
+    thumbnail: "assets/publications/2021_sida/thumbnail.png"
+    selected: y
+
+
+  - title: "TorchDrug: A Powerful and Flexible Machine Learning Platform for Drug Discovery"
+    authors: "Zhaocheng Zhu, Chence Shi, Zuobai Zhang, Shengchao Liu, Minghao Xu, Xinyu Yuan, Yangtian Zhang, Junkun Chen, Huiyu Cai, Jiarui Lu, <b>Chang Ma</b>, Runcheng Liu, Louis-Pascal Xhonneux, Meng Qu, Jian Tang"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2202.08320.pdf"
+    code: "https://github.com/DeepGraphLearning/torchdrug"
+    thumbnail: "assets/publications/2022_torchdrug/thumbnail.png"
+    selected: y
+
+  - title: "PEER: A Comprehensive and Multi-Task Benchmark for Protein Sequence Understanding"
+    authors: "Minghao Xu, Zuobai Zhang, Jiarui Lu, Zhaocheng Zhu, Yangtian Zhang, <b>Chang Ma</b>, Runcheng Liu, Jian Tang"
+    venue: "NeurIPS 2022 Dataset and Benchmark Track"
+    paper_pdf: "https://arxiv.org/pdf/2206.02096.pdf"
+    code: "https://github.com/DeepGraphLearning/PEER_Benchmark"
+    thumbnail: "assets/publications/2022_peer/thumbnail.png"
+    selected: y
+
+  - title: "Switch-GPT: an effective method for constrained text generation under few-shot settings"
+    authors: "<b>Chang Ma*</b>, Song Zhang*, Gehui Shen, Zhihong Deng"
+    venue: "AAAI Student Abstract 2021"
+    paper_pdf: "https://ojs.aaai.org/index.php/AAAI/article/view/21642"
+    thumbnail: "assets/publications/2021_few_shot_nlg/thumbnail.png"
+    selected: y
+
+
 
   
