@@ -6,6 +6,14 @@ papers:
     code: https://github.com/HKUNLP/RSA
     thumbnail: "assets/publications/2023_protein/thumbnail.jpg"
     selected: y
+
+  - title: "A Challenging Benchmark for Low-Resource Learning"
+    authors: "Yudong Wang*, <b>Chang Ma*</b>, Qingxiu Dong, Lingpeng Kong, Jingjing Xu"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2303.03840.pdf"
+    code: https://qian2333.github.io/Hard-Bench-Web/
+    thumbnail: "assets/publications/2023_hardbench/thumbnail.png"
+    selected: y
   
 
   - title: "Certified Robustness Against Natural Language Attacks by Causal Intervention"
