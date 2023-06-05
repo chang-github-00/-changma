@@ -2,9 +2,17 @@ papers:
   - title: "Retrieved Sequence Augmentation for Protein Representation Learning"
     authors: "<b>Chang Ma</b>, Haiteng Zhao, Lin Zheng, Jiayi Xin, Qintong Li, Lijun Wu, Zhihong Deng, Yang Lu, Qi Liu, Lingpeng Kong"
     venue: "Preprint"
-    paper_pdf: "https://www.biorxiv.org/content/10.1101/2023.02.22.529597v1.full.pdf"
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2023.02.22.529597v3.full.pdf"
     code: https://github.com/HKUNLP/RSA
     thumbnail: "assets/publications/2023_protein/thumbnail.jpg"
+    selected: y
+  
+  - title: "GIMLET: A Unified Graph-Text Model for Instruction-Based Molecule Zero-Shot Learning"
+    authors: "Haiteng Zhao, Shengchao Liu, <b>Chang Ma</b>, Hannan Xu, Jie Fu, Zhi-Hong Deng, Lingpeng Kong, Qi Liu"
+    venue: "Preprint"
+    paper_pdf: "https://www.biorxiv.org/content/10.1101/2023.05.30.542904v1.full.pdf"
+    code: "https://github.com/zhao-ht/GIMLET"
+    thumbnail: "assets/publications/2023_gimlet/thumbnail.jpg"
     selected: y
 
   - title: "A Challenging Benchmark for Low-Resource Learning"

@@ -1,6 +1,10 @@
 experiences:
-
-- place: "HongKong University"
+- place: "Microsoft Research AI4Science"
+  time: "April 2023 - "
+  title: "Research Intern"
+  subtitle: "Foundation Model Group"
+  category: "work"
+- place: "The University of Hong Kong"
   time: "Sep 2022 - "
   title: "Ph.D. Student"
   subtitle: "CS, NLP"
@@ -36,3 +40,4 @@ experiences:
   title: "B.Sc. Student"
   subtitle: "Machine Intelligence "
   category: "school"
+
