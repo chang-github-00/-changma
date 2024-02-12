@@ -10,11 +10,11 @@ title: Home
   Before that,  I received my B.S. in Computer Science from Peking University, advised by Prof.<a href="https://www.cis.pku.edu.cn/jzyg/szdw/dzh.htm" target="_blank">Zhihong Deng</a>. 
   </p> 
   <p>
-    My primary research focus is to enable scientific discoveries using natural language processing, specifically in the comprehension of biological sequences and automated scientific exploration. 
+    My primary research focus is to enable scientific discoveries using natural language processing, specifically in the comprehension of biological sequences and automated agents. For fun, I explore theories of machine learning generalization and robustness.
   </p>
 
   <h5>Research Interest</h5>
-    #AI4Science &nbsp;   &nbsp; #DrugDiscovery &nbsp;   &nbsp; #Generalization &nbsp;   &nbsp; #LargeLanguageModel &nbsp;
+  #Agents &nbsp; #AI4Science &nbsp;   &nbsp; #DrugDiscovery &nbsp;   &nbsp; #Generalization &nbsp;   &nbsp;
 
   
 </div>
@@ -29,8 +29,10 @@ title: Home
   </p>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
+    <li><div class="button active" data-ref="#papers-selected">#AI4Science</div></li>
+    <li><div class="button active" data-ref="#papers-agent">#Agent</div></li>
+    <li><div class="button active" data-ref="#papers-generalization">#Generalization</div></li>
   </ul>
 
   <div class="tab-content">
@@ -74,8 +76,92 @@ title: Home
       {% endfor %}
     </div>
 
+
+    <div class="tab-pane active" id="papers-agent">
+      {% assign selected_papers = site.data.publications.papers | where: "agent", "y" %}
+      {% for paper in selected_papers %}
+        
+        <img src={{ paper.thumbnail }} style="FLOAT: left; MARGIN-BOTTOM: 10px; MARGIN-RIGHT: 20px" alt=""width="200" height="100">
+        
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane active" id="papers-generalization">
+      {% assign selected_papers = site.data.publications.papers | where: "generalization", "y" %}
+      {% for paper in selected_papers %}
+        
+        <img src={{ paper.thumbnail }} style="FLOAT: left; MARGIN-BOTTOM: 10px; MARGIN-RIGHT: 20px" alt=""width="200" height="100">
+        
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+
+
     <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
+        <img src={{ paper.thumbnail }} style="FLOAT: left; MARGIN-BOTTOM: 10px; MARGIN-RIGHT: 20px" alt=""width="200" height="100">
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>

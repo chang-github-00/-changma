@@ -1,4 +1,21 @@
 papers:
+  - title: "AgentBoard: An Analytical Evaluation Board of Multi-Turn LLM Agents"
+    authors: "<b>Chang Ma*</b>, Junlei Zhang*, Zhihao Zhu*, Cheng Yang*, Yujiu Yang, Yaohui Jin, Zhenzhong Lan, Lingpeng Kong, Junxian He"
+    venue: "Preprint"
+    paper_pdf: "http://arxiv.org/pdf/2401.13178.pdf"
+    code: "https://github.com/hkust-nlp/AgentBoard"
+    thumbnail: "assets/publications/2024_agentboard/thumbnail.png"
+    selected: n
+    agent: y
+
+  - title: "Empowering Large Language Model Agents through Action Learning"
+    authors: "Haiteng Zhao, <b>Chang Ma</b>, Guoyin Wang, Jing su, Lingpeng Kong, Jingjing Xu, Zhi-Hong Deng, Hongxia Yang "
+    venue: "Preprint"
+    paper_pdf: "http://arxiv.org/pdf/2401.13178.pdf"
+    thumbnail: "assets/publications/2024_learnact/thumbnail.png"
+    selected: n
+    agent: y
+
   - title: "Retrieved Sequence Augmentation for Protein Representation Learning"
     authors: "<b>Chang Ma</b>, Haiteng Zhao, Lin Zheng, Jiayi Xin, Qintong Li, Lijun Wu, Zhihong Deng, Yang Lu, Qi Liu, Lingpeng Kong"
     venue: "Preprint"
@@ -6,40 +23,14 @@ papers:
     code: https://github.com/HKUNLP/RSA
     thumbnail: "assets/publications/2023_protein/thumbnail.jpg"
     selected: y
-  
+
   - title: "GIMLET: A Unified Graph-Text Model for Instruction-Based Molecule Zero-Shot Learning"
     authors: "Haiteng Zhao, Shengchao Liu, <b>Chang Ma</b>, Hannan Xu, Jie Fu, Zhi-Hong Deng, Lingpeng Kong, Qi Liu"
-    venue: "Preprint"
+    venue: "NeurIPS 2023"
     paper_pdf: "https://www.biorxiv.org/content/10.1101/2023.05.30.542904v1.full.pdf"
     code: "https://github.com/zhao-ht/GIMLET"
     thumbnail: "assets/publications/2023_gimlet/thumbnail.jpg"
     selected: y
-
-  - title: "A Challenging Benchmark for Low-Resource Learning"
-    authors: "Yudong Wang*, <b>Chang Ma*</b>, Qingxiu Dong, Lingpeng Kong, Jingjing Xu"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/pdf/2303.03840.pdf"
-    code: https://qian2333.github.io/Hard-Bench-Web/
-    thumbnail: "assets/publications/2023_hardbench/thumbnail.png"
-    selected: y
-  
-
-  - title: "Certified Robustness Against Natural Language Attacks by Causal Intervention"
-    authors: "Haiteng Zhao*, <b>Chang Ma*</b>, Xinshuai Dong*, Anh Tuan Luu, Zhi-Hong Deng, Hanwang Zhang"
-    venue: "ICML 2022"
-    paper_pdf: "https://arxiv.org/pdf/2205.12331.pdf"
-    code: https://github.com/zhao-ht/ConvexCertify
-    thumbnail: "assets/publications/2022_ciss/thumbnail.png"
-    selected: y
-
-  - title: "Domain Adaptation via Mutual Information Maximization"
-    authors: "Haiteng Zhao, <b>Chang Ma</b>, Qinyu Chen, Zhihong Deng"
-    venue: "IJCAI 2022 Long Presentation"
-    paper_pdf: "https://arxiv.org/pdf/2110.12184.pdf"
-    code: https://github.com/zhao-ht/SIDA
-    thumbnail: "assets/publications/2021_sida/thumbnail.png"
-    selected: y
-
 
   - title: "TorchDrug: A Powerful and Flexible Machine Learning Platform for Drug Discovery"
     authors: "Zhaocheng Zhu, Chence Shi, Zuobai Zhang, Shengchao Liu, Minghao Xu, Xinyu Yuan, Yangtian Zhang, Junkun Chen, Huiyu Cai, Jiarui Lu, <b>Chang Ma</b>, Runcheng Liu, Louis-Pascal Xhonneux, Meng Qu, Jian Tang"
@@ -57,13 +48,50 @@ papers:
     thumbnail: "assets/publications/2022_peer/thumbnail.png"
     selected: y
 
+  - title: "A Challenging Benchmark for Low-Resource Learning"
+    authors: "Yudong Wang*, <b>Chang Ma*</b>, Qingxiu Dong, Lingpeng Kong, Jingjing Xu"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2303.03840.pdf"
+    code: https://qian2333.github.io/Hard-Bench-Web/
+    thumbnail: "assets/publications/2023_hardbench/thumbnail.png"
+    selected: n
+    generalization: y
+
+  - title: "KS-Lottery: Finding Certified Lottery Tickets for Multilingual Language Models"
+    authors: "Fei Yuan, <b>Chang Ma</b>, Shuai Yuan, Qiushi Sun, Lei Li"
+    venue: "Preprint"
+    thumbnail: "assets/publications/2024_ks/thumbnail.png"
+    paper_pdf: "https://arxiv.org/pdf/2402.02801"
+    selected: n
+    generalization: y
+  
+
+
+  - title: "Certified Robustness Against Natural Language Attacks by Causal Intervention"
+    authors: "Haiteng Zhao*, <b>Chang Ma*</b>, Xinshuai Dong*, Anh Tuan Luu, Zhi-Hong Deng, Hanwang Zhang"
+    venue: "ICML 2022"
+    paper_pdf: "https://arxiv.org/pdf/2205.12331.pdf"
+    code: https://github.com/zhao-ht/ConvexCertify
+    thumbnail: "assets/publications/2022_ciss/thumbnail.png"
+    selected: n
+    generalization: y
+
+  - title: "Domain Adaptation via Mutual Information Maximization"
+    authors: "Haiteng Zhao, <b>Chang Ma</b>, Qinyu Chen, Zhihong Deng"
+    venue: "IJCAI 2022 Long Presentation"
+    paper_pdf: "https://arxiv.org/pdf/2110.12184.pdf"
+    code: https://github.com/zhao-ht/SIDA
+    thumbnail: "assets/publications/2021_sida/thumbnail.png"
+    selected: n
+    generalization: y
+
+
   - title: "Switch-GPT: an effective method for constrained text generation under few-shot settings"
     authors: "<b>Chang Ma*</b>, Song Zhang*, Gehui Shen, Zhihong Deng"
     venue: "AAAI Student Abstract 2021"
     paper_pdf: "https://ojs.aaai.org/index.php/AAAI/article/view/21642"
     thumbnail: "assets/publications/2021_few_shot_nlg/thumbnail.png"
-    selected: y
-
+    selected: n
 
 
   
