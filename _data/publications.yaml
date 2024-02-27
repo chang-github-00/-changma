@@ -11,7 +11,7 @@ papers:
   - title: "Empowering Large Language Model Agents through Action Learning"
     authors: "Haiteng Zhao, <b>Chang Ma</b>, Guoyin Wang, Jing su, Lingpeng Kong, Jingjing Xu, Zhi-Hong Deng, Hongxia Yang "
     venue: "Preprint"
-    paper_pdf: "http://arxiv.org/pdf/2401.13178.pdf"
+    paper_pdf: "https://arxiv.org/pdf/2402.15809.pdf"
     thumbnail: "assets/publications/2024_learnact/thumbnail.png"
     selected: n
     agent: y
