@@ -1,7 +1,7 @@
 papers:
   - title: "AgentBoard: An Analytical Evaluation Board of Multi-Turn LLM Agents"
     authors: "<b>Chang Ma*</b>, Junlei Zhang*, Zhihao Zhu*, Cheng Yang*, Yujiu Yang, Yaohui Jin, Zhenzhong Lan, Lingpeng Kong, Junxian He"
-    venue: "Preprint"
+    venue: "LLMAgent ICLR 2024"
     paper_pdf: "http://arxiv.org/pdf/2401.13178.pdf"
     code: "https://github.com/hkust-nlp/AgentBoard"
     thumbnail: "assets/publications/2024_agentboard/thumbnail.png"
