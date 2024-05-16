@@ -50,7 +50,7 @@ papers:
 
   - title: "A Challenging Benchmark for Low-Resource Learning"
     authors: "Yudong Wang*, <b>Chang Ma*</b>, Qingxiu Dong, Lingpeng Kong, Jingjing Xu"
-    venue: "Preprint"
+    venue: "ACL 2024 Findings"
     paper_pdf: "https://arxiv.org/pdf/2303.03840.pdf"
     code: https://qian2333.github.io/Hard-Bench-Web/
     thumbnail: "assets/publications/2023_hardbench/thumbnail.png"
