@@ -17,7 +17,7 @@ papers:
     agent: y
 
   - title: "Retrieved Sequence Augmentation for Protein Representation Learning"
-    authors: "<b>Chang Ma</b>, Haiteng Zhao, Lin Zheng, Jiayi Xin, Qintong Li, Lijun Wu, Zhihong Deng, Yang Lu, Qi Liu, Lingpeng Kong"
+    authors: "<b>Chang Ma</b>, Haiteng Zhao, Lin Zheng, Jiayi Xin, Qintong Li, Lijun Wu, Zhihong Deng, Yang Lu, Qi Liu, Sheng Wang, Lingpeng Kong"
     venue: "EMNLP 2024"
     paper_pdf: "https://www.biorxiv.org/content/10.1101/2023.02.22.529597v3.full.pdf"
     code: https://github.com/HKUNLP/RSA
