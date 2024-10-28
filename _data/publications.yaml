@@ -1,4 +1,12 @@
 papers:
+  - title: "Non-myopic Generation of Language Models for Reasoning and Planning"
+    authors: "<b>Chang Ma</b>, Haiteng Zhao, Junlei Zhang, Junxian He, Lingpeng Kong"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2410.17195"
+    thumbnail: "assets/publications/2024_predictive/thumbnail.png"
+    selected: n
+    agent: y
+
   - title: "AgentBoard: An Analytical Evaluation Board of Multi-Turn LLM Agents"
     authors: "<b>Chang Ma*</b>, Junlei Zhang*, Zhihao Zhu*, Cheng Yang*, Yujiu Yang, Yaohui Jin, Zhenzhong Lan, Lingpeng Kong, Junxian He"
     venue: "NeurIPS 2024 Dataset and Benchmark Track (Oral)"
@@ -95,3 +103,4 @@ papers:
 
 
   
+
