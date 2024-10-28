@@ -3,7 +3,7 @@ papers:
     authors: "<b>Chang Ma</b>, Haiteng Zhao, Junlei Zhang, Junxian He, Lingpeng Kong"
     venue: "Preprint"
     paper_pdf: "https://arxiv.org/pdf/2410.17195"
-    thumbnail: "assets/publications/2024_predictive/thumbnail.png"
+    thumbnail: "assets/publications/2024_predictive/thumbnail.jpg"
     selected: n
     agent: y
 
