@@ -7,11 +7,11 @@ projects:
     all: y
     time: "22 minutes"
     topic: "# machine learning"
-  - title: "Breaking Protein Language Model Scaling Law with Retrieval"
-    subtitle: "A holistic view on how incorporating evolutionary knowledge with retrieval could break protein language model pretraining scaling law. Also introduce protein retrieval methodologies.."
-    thumbnail: "assets/projects/2021_ctm/thumbnail.png"
-    url: "blogs/2024_predictive_decoding.html"
-    selected: y
-    all: y
-    time: "22 minutes"
-    topic: "# machine learning"
+  # - title: "Breaking Protein Language Model Scaling Law with Retrieval"
+  #   subtitle: "A holistic view on how incorporating evolutionary knowledge with retrieval could break protein language model pretraining scaling law. Also introduce protein retrieval methodologies.."
+  #   thumbnail: "assets/projects/2021_ctm/thumbnail.png"
+  #   url: "blogs/2024_predictive_decoding.html"
+  #   selected: y
+  #   all: y
+  #   time: "22 minutes"
+  #   topic: "# machine learning"
