@@ -32,6 +32,13 @@ papers:
     thumbnail: "assets/publications/2023_protein/thumbnail.jpg"
     selected: y
 
+  - title: "Benchmarking and Enhancing Large Language Models for Biological Pathway Reasoning"
+    authors: "Haiteng Zhao, <b>Chang Ma</b>, Lingpeng Kong, Zhi-Hong Deng"
+    venue: "Preprint"
+    paper_pdf: ""
+    thumbnail: "assets/publications/2024_pathway/thumbnail.png"
+    selected: y
+
   - title: "GIMLET: A Unified Graph-Text Model for Instruction-Based Molecule Zero-Shot Learning"
     authors: "Haiteng Zhao, Shengchao Liu, <b>Chang Ma</b>, Hannan Xu, Jie Fu, Zhi-Hong Deng, Lingpeng Kong, Qi Liu"
     venue: "NeurIPS 2023"
