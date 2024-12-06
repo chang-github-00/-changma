@@ -2,19 +2,43 @@
 layout: default
 title: Home
 ---
+<head>
+  <style>
+    .article {
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #e0e0e0;
+        border-radius: 0.5px;
+        background-color: #f8f8f8;
+    }
+    .article h5 {
+        margin: 0 0 10px;
+        color: #931a44;
+    }
+    .article p {
+        margin: 5px 0;
+        color: #555;
+    }
+</style>
+</head>
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  I am a second-year CS Ph.D student at <a href="https://hkunlp.github.io/" target="_blank">HKUNLP Lab</a>, The University of Hong Kong. I am fortunately co-advised by <a href="https://ikekonglp.github.io" target="_blank">Lingpeng Kong</a> and <a href="https://taoyds.github.io" target="_blank">Tao Yu</a>. I am also working with <a href="https://jxhe.github.io" target="_blank">Junxian He</a> on many exciting projects.
-  Before that,  I received my B.S. in Computer Science from Peking University, advised by Prof.<a href="https://www.cis.pku.edu.cn/jzyg/szdw/dzh.htm" target="_blank">Zhihong Deng</a>. 
+  I am a second-year CS Ph.D student at <a href="https://hkunlp.github.io/" target="_blank" rel="noopener noreferrer">HKUNLP Lab</a>, The University of Hong Kong. I am fortunately co-advised by <a href="https://ikekonglp.github.io" target="_blank" rel="noopener noreferrer">Lingpeng Kong</a> and <a href="https://taoyds.github.io" target="_blank" rel="noopener noreferrer">Tao Yu</a>. I am also working closely with <a href="https://jxhe.github.io" target="_blank" rel="noopener noreferrer">Junxian He</a>.
+  Before that,  I received my B.S. in Computer Science from Peking University, advised by Prof.<a href="https://www.cis.pku.edu.cn/jzyg/szdw/dzh.htm" target="_blank" rel="noopener noreferrer">Zhihong Deng</a>. I was also deeply inspired by these <a href="collaborators.html">collaborators</a>.
   </p> 
   <p>
-    My primary research focus is to enable scientific discoveries using natural language processing, specifically in the comprehension of biological sequences and automated agents. For fun, I explore theories of machine learning generalization and robustness.
+    My research goal is to develop <b>Autonomous, Efficient and Theory-Grounded</b> machine learning algorithms, with a particular focus on advancing scientific discoveries.
+      <li>For Autonomous Decision Making, I design agents powered by generative models, with an emphasis on improving reasoning and planning abilities of foundation models that could facilitate research-level abilities.</li>
+      <li>For Theory-Grounded Research, I focus on developing AI systems that are certifiably robust and provably optimal, ensuring reliability and efficiency in their decision-making processes.
+      <li>For Efficient Scientific Discovery, I leverage natural language processing and generative agents to accelerate key areas of scientific progress, with a focus on drug discovery.</li>
+    By bridging foundational machine learning research with real-world scientific applications, my work aims to create robust, reasoning-intensive AI systems capable of addressing critical challenges, including treating human diseases and uncovering the fundamental laws of nature.
   </p>
-
+<p> 
+</p>
   <h5>Research Interest</h5>
-  #Agents &nbsp; #AI4Science &nbsp;   &nbsp; #DrugDiscovery &nbsp;   &nbsp; #Generalization &nbsp;   &nbsp;
+  #Agents   #AI4Science       #DrugDiscovery       #MachineLearningTheory      
 
   
 </div>
@@ -32,7 +56,7 @@ title: Home
     <li><div class="button" data-ref="#papers-all">All</div></li>
     <li><div class="button active" data-ref="#papers-selected">#AI4Science</div></li>
     <li><div class="button active" data-ref="#papers-agent">#Agent</div></li>
-    <li><div class="button active" data-ref="#papers-generalization">#Generalization</div></li>
+    <li><div class="button active" data-ref="#papers-generalization">#Machine Learning Theory</div></li>
   </ul>
 
   <div class="tab-content">
@@ -199,79 +223,50 @@ title: Home
 </div>
 
 <!-- ========== PROJECTS ========== -->
-<!-- <div class="docs-section" id="projects">
-  <h4>Talks & Projects</h4>
+<div class="docs-section" id="blogs">
+  <h4>Blogs</h4>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
+    <div class="tab-content">
+      <div class="tab-pane active">
+        {% assign selected_projects = site.data.projects.projects | where: "all", "y" %}
+        {% for project in selected_projects %}
+          {% assign index_modulo = forloop.index0 | modulo:3 %}
+          {% if index_modulo == 0 %}
+            <div class="row">
+          {% endif %}
+          <!-- <img src={{ project.thumbnail }} style="FLOAT: left; MARGIN-BOTTOM: 10px; MARGIN-RIGHT: 20px" alt=""width="200" height="200"> -->
+          <div class="article" onclick="location.href='{{ project.url }}';" style="cursor: pointer;">
+            <h5><b>{{ project.title }}</b></h5>
+            <p>{{ project.subtitle }}</p>
+          </div>
+          
+        </a>
+            <!-- <div class="four columns">
+              <div class="project-container">
+  
+                  <div class="project-image-container">
+                    <a href="{{ project.url }}">
+                      <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                    </a>
+                  </div>
+  
+                  <div class="project-caption">
+                    <b>{{ project.title }}</b> <br/>
+                    {{ project.subtitle }}
+                  </div>
+  
+              </div>
+            </div> -->
+  
+          {% if index_modulo == 2 %}
             </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
+          {% endif %}
+        {% endfor %}
+      </div>
   </div>
 
 </div>
- -->
+
 
 
 <!-- ========== RESUME ========== -->

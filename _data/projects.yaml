@@ -1,24 +1,17 @@
 projects:
-  - title: "Protein Ligand Docking"
-    subtitle: "Predicting Complex Conformations with Deep Learning Energy Function"
-    thumbnail: "assets/projects/2021_docking/thumbnail.jpg"
-    url: "projects/2021_docking.html"
-    selected: y
-
-  - title: "TorchProtein"
-    subtitle: "Multi-task Learning For Protein Representations"
-    thumbnail: "assets/projects/2021_torchprotein/thumbnail.png"
-    url: "https://torchdrug.ai"
-    selected: y
-
-  - title: "RNN Optimization"
-    subtitle: "Will RNN Gradients Explode?"
-    thumbnail: "assets/projects/2020_rnn/thumbnail.png"
-    url: "projects/2020_rnn.html"
-    selected: n
-  
-  - title: "Doorway Effect CTM"
-    subtitle: "Talk at IJTCS"
+  - title: "Avoiding Mistakes and Fixing Mistakes -- The Two Tales of Planning"
+    subtitle: "A control theory view on Large Language Model reasoning and planning. In order to achieve successful planning, an agent can take two kinds of strategies handing mistakes: speculative planning v.s. self-reflection..."
     thumbnail: "assets/projects/2021_ctm/thumbnail.png"
-    url: "projects/2021_ctm.html"
+    url: "blogs/2024_predictive_decoding.html"
     selected: y
+    all: y
+    time: "22 minutes"
+    topic: "# machine learning"
+  - title: "Breaking Protein Language Model Scaling Law with Retrieval"
+    subtitle: "A holistic view on how incorporating evolutionary knowledge with retrieval could break protein language model pretraining scaling law. Also introduce protein retrieval methodologies.."
+    thumbnail: "assets/projects/2021_ctm/thumbnail.png"
+    url: "blogs/2024_predictive_decoding.html"
+    selected: y
+    all: y
+    time: "22 minutes"
+    topic: "# machine learning"
