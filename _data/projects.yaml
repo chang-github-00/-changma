@@ -2,16 +2,35 @@ projects:
   - title: "Avoiding Mistakes and Fixing Mistakes -- The Two Tales of Planning"
     subtitle: "A control theory view on Large Language Model reasoning and planning. In order to achieve successful planning, an agent can take two kinds of strategies handing mistakes: speculative planning v.s. self-reflection..."
     thumbnail: "assets/projects/2021_ctm/thumbnail.png"
-    url: "blogs/2024_predictive_decoding.html"
+    url: "projects/2024_predictive.html"
     selected: y
     all: y
     time: "22 minutes"
-    topic: "# machine learning"
-  - title: "Breaking Protein Language Model Scaling Law with Retrieval"
-    subtitle: "A holistic view on how incorporating evolutionary knowledge with retrieval could break protein language model pretraining scaling law. Also introduce protein retrieval methodologies.."
+    topic: "Blog, 2025/1/24"
+
+  - title: "AgentBoard: An Analytical Evaluation Board of Multi-Turn LLM Agents"
+    subtitle: "AgentBoard offers a fine-grained progress rate metric that captures incremental advancements as well as a comprehensive evaluation toolkit that features easy assessment ..."
     thumbnail: "assets/projects/2021_ctm/thumbnail.png"
-    url: "blogs/2024_predictive_decoding.html"
+    url: "projects/2024_agentboard.html"
     selected: y
     all: y
     time: "22 minutes"
-    topic: "# machine learning"
+    topic: "Oral Talk at NeurIPS 2024; Invited Talk at DAI 2024"
+
+  - title: "Non-myopic Generation of Language Models for Reasoning and Planning"
+    subtitle: "We revisit LLM reasoning from an optimal control perspective, proposing a novel method, Predictive-Decoding, that leverages Model Predictive Control to enhance planning accuracy ..."
+    thumbnail: "assets/projects/2021_ctm/thumbnail.png"
+    url: "projects/2024_myopic.html"
+    selected: y
+    all: y
+    time: "22 minutes"
+    topic: "Talk at Huawei HK, 2024/10/31"
+
+  - title: "Retrieved Sequence Augmentation for Protein Representation Learning"
+    subtitle: "This study reevaluates the role of MSA, proposing it as a retrieval augmentation method and questioning the necessity of sequence alignment ..."
+    thumbnail: "assets/projects/2021_ctm/thumbnail.png"
+    url: "projects/2023_rsa.html"
+    selected: y
+    all: y
+    time: "22 minutes"
+    topic: "Talk at Tsinghua AIR, 2023/3/23"

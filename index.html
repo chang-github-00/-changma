@@ -7,11 +7,11 @@ title: Home
     .article {
         margin-bottom: 20px;
         padding: 15px;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #ffffff;
         border-radius: 0.5px;
-        background-color: #f8f8f8;
+        background-color: #ffffff;
     }
-    .article h5 {
+    .article h6 {
         margin: 0 0 10px;
         color: #931a44;
     }
@@ -25,7 +25,7 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  I am a second-year CS Ph.D student at <a href="https://hkunlp.github.io/" target="_blank" rel="noopener noreferrer">HKUNLP Lab</a>, The University of Hong Kong. I am fortunately co-advised by <a href="https://ikekonglp.github.io" target="_blank" rel="noopener noreferrer">Lingpeng Kong</a> and <a href="https://taoyds.github.io" target="_blank" rel="noopener noreferrer">Tao Yu</a>. I am also working closely with <a href="https://jxhe.github.io" target="_blank" rel="noopener noreferrer">Junxian He</a>.
+  I am a third-year CS Ph.D student at <a href="https://hkunlp.github.io/" target="_blank" rel="noopener noreferrer">HKUNLP Lab</a>, The University of Hong Kong. I am fortunately co-advised by <a href="https://ikekonglp.github.io" target="_blank" rel="noopener noreferrer">Lingpeng Kong</a> and <a href="https://taoyds.github.io" target="_blank" rel="noopener noreferrer">Tao Yu</a>. I am also working closely with <a href="https://jxhe.github.io" target="_blank" rel="noopener noreferrer">Junxian He</a>.
   Before that,  I received my B.S. in Computer Science from Peking University, advised by Prof.<a href="https://www.cis.pku.edu.cn/jzyg/szdw/dzh.htm" target="_blank" rel="noopener noreferrer">Zhihong Deng</a>. I was also deeply inspired by these <a href="collaborators.html">collaborators</a>.
   </p> 
   <p>
@@ -224,7 +224,7 @@ title: Home
 
 <!-- ========== PROJECTS ========== -->
 <div class="docs-section" id="blogs">
-  <h4>Blogs</h4>
+  <h4>Talks & Blogs</h4>
 
     <div class="tab-content">
       <div class="tab-pane active">
@@ -236,7 +236,8 @@ title: Home
           {% endif %}
           <!-- <img src={{ project.thumbnail }} style="FLOAT: left; MARGIN-BOTTOM: 10px; MARGIN-RIGHT: 20px" alt=""width="200" height="200"> -->
           <div class="article" onclick="location.href='{{ project.url }}';" style="cursor: pointer;">
-            <h5><b>{{ project.title }}</b></h5>
+            <h6><b>{{ project.title }}</b></h6>
+            <p>{{ project.topic }}</p>
             <p>{{ project.subtitle }}</p>
           </div>
           
