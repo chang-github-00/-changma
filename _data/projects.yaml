@@ -6,7 +6,6 @@ projects:
     selected: y
     all: y
     time: "22 minutes"
-<<<<<<< HEAD
     topic: "Blog, 2025/1/24"
 
   - title: "AgentBoard: An Analytical Evaluation Board of Multi-Turn LLM Agents"
@@ -35,14 +34,3 @@ projects:
     all: y
     time: "22 minutes"
     topic: "Talk at Tsinghua AIR, 2023/3/23"
-=======
-    topic: "# machine learning"
-  # - title: "Breaking Protein Language Model Scaling Law with Retrieval"
-  #   subtitle: "A holistic view on how incorporating evolutionary knowledge with retrieval could break protein language model pretraining scaling law. Also introduce protein retrieval methodologies.."
-  #   thumbnail: "assets/projects/2021_ctm/thumbnail.png"
-  #   url: "blogs/2024_predictive_decoding.html"
-  #   selected: y
-  #   all: y
-  #   time: "22 minutes"
-  #   topic: "# machine learning"
->>>>>>> 203e6fdc7ad9371d10b3691d784afef982423c66
