@@ -1,9 +1,11 @@
 papers:
+  
   - title: "Non-myopic Generation of Language Models for Reasoning and Planning"
     authors: "<b>Chang Ma</b>, Haiteng Zhao, Junlei Zhang, Junxian He, Lingpeng Kong"
     venue: "ICLR 2025"
     paper_pdf: "https://arxiv.org/pdf/2410.17195"
-    thumbnail: "assets/publications/2024_predictive/thumbnail.jpg"
+    thumbnail: "assets/publications/2024_predictive/thumbnail.png"
+    code: "https://github.com/chang-github-00/Predictive-Decoding"
     selected: n
     agent: y
 
@@ -13,6 +15,35 @@ papers:
     paper_pdf: "http://arxiv.org/pdf/2401.13178.pdf"
     code: "https://github.com/hkust-nlp/AgentBoard"
     thumbnail: "assets/publications/2024_agentboard/thumbnail.png"
+    selected: n
+    agent: y
+
+  - title: "Genius: A Generalizable and Purely Unsupervised Self-Training Framework For Advanced Reasoning"
+    authors: "Fangzhi Xu, Hang Yan, <b>Chang Ma</b>, Haiteng Zhao, Qiushi Sun, Kanzhi Cheng, Junxian He, Jun Liu, Zhiyong Wu"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2504.08672"
+    code: "https://github.com/xufangzhi/Genius"
+    thumbnail: "assets/publications/2025_genius/thumbnail.png"
+    selected: n
+    agent: y
+
+
+  - title: "φ-Decoding: Adaptive Foresight Sampling for Balanced Inference-Time Exploration and Exploitation"
+    authors: "Fangzhi Xu, Hang Yan, <b>Chang Ma</b>, Haiteng Zhao, Jun Liu, Qika Lin, Zhiyong Wu"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2503.13288"
+    code: "https://github.com/xufangzhi/phi-Decoding"
+    thumbnail: "assets/publications/2025_phi/thumbnail.png"
+    selected: n
+    agent: y
+  
+  
+  - title: "Breaking the Data Barrier – Building GUI Agents Through Task Generalization"
+    authors: "Junlei Zhang, Zichen Ding, <b>Chang Ma</b>, Zijie Chen, Qiushi Sun, Zhenzhong Lan, Junxian He"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/pdf/2504.10127"
+    thumbnail: "assets/publications/2025_guimid/thumbnail.png"
+    code: "https://github.com/hkust-nlp/GUIMid"
     selected: n
     agent: y
 
@@ -49,10 +80,11 @@ papers:
     agent: y 
 
   
-  - title: "Benchmarking and Enhancing Large Language Models for Biological Pathway Reasoning"
+  - title: "BioMaze: Benchmarking and Enhancing Large Language Models for Biological Pathway Reasoning"
     authors: "Haiteng Zhao, <b>Chang Ma</b>, Lingpeng Kong, Zhi-Hong Deng"
     venue: "Preprint"
-    paper_pdf: ""
+    paper_pdf: "https://arxiv.org/pdf/2502.16660"
+    code: "https://github.com/zhao-ht/BioMaze"
     thumbnail: "assets/publications/2024_pathway/thumbnail.png"
     selected: y
 
@@ -116,7 +148,6 @@ papers:
     thumbnail: "assets/publications/2021_sida/thumbnail.png"
     selected: n
     generalization: y
-
 
   - title: "Switch-GPT: an effective method for constrained text generation under few-shot settings"
     authors: "<b>Chang Ma*</b>, Song Zhang*, Gehui Shen, Zhihong Deng"
