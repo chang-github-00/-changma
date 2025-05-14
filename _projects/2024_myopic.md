@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Non-myopic Generation of Language Models for Reasoning and Planning
-subtitle: Talk at Huawei HK, 2024/10/31
+subtitle: Talk at Huawei HK, 2024/10/31; 
 ---
 
 **Abstract** Large Language Models have demonstrated remarkable abilities in reasoning and planning by breaking down complex problems into sequential steps. Despite their success in various domains like mathematical problem-solving and coding, LLMs face challenges in ensuring reliable and optimal planning due to their inherent myopic nature of autoregressive decoding. 

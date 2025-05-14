@@ -63,6 +63,14 @@ papers:
     thumbnail: "assets/publications/2023_protein/thumbnail.jpg"
     selected: y
 
+  - title: "A Survey on Large Language Model-Based Social Agents in Game-Theoretic Scenarios "
+    authors: "Xiachong Feng, Longxu Dou, Ella Li, Qinghao Wang, Haochuan Wang, Yu Guo, <b>Chang Ma</b>, Lingpeng Kong"
+    venue: "TMLR"
+    paper_pdf: "https://arxiv.org/pdf/2412.03920"
+    thumbnail: "assets/publications/2024_social/thumbnail.png"
+    selected: n
+    agent: y 
+
   - title: "A Survey of Neural Code Intelligence: Paradigms, Advances and Beyond "
     authors: "Qiushi Sun, Zhirui Chen, Fangzhi Xu, <b>Chang Ma</b>, Kanzhi Cheng, Zhangyue Yin, Jianing Wang, Chengcheng Han, Renyu Zhu, Shuai Yuan, Pengcheng Yin, Qipeng Guo, Xipeng Qiu, Xiaoli Li, Fei Yuan, Lingpeng Kong, Xiang Li, Zhiyong Wu"
     venue: "Preprint"
@@ -71,13 +79,7 @@ papers:
     selected: n
     agent: y
 
-  - title: "A Survey on Large Language Model-Based Social Agents in Game-Theoretic Scenarios "
-    authors: "Xiachong Feng, Longxu Dou, Ella Li, Qinghao Wang, Haochuan Wang, Yu Guo, <b>Chang Ma</b>, Lingpeng Kong"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/pdf/2412.03920"
-    thumbnail: "assets/publications/2024_social/thumbnail.png"
-    selected: n
-    agent: y 
+
 
   
   - title: "BioMaze: Benchmarking and Enhancing Large Language Models for Biological Pathway Reasoning"
@@ -123,7 +125,7 @@ papers:
 
   - title: "KS-Lottery: Finding Certified Lottery Tickets for Multilingual Language Models"
     authors: "Fei Yuan, <b>Chang Ma</b>, Shuai Yuan, Qiushi Sun, Lei Li"
-    venue: "NAACL 2025"
+    venue: "NAACL 2025 Oral"
     thumbnail: "assets/publications/2024_ks/thumbnail.png"
     paper_pdf: "https://arxiv.org/pdf/2402.02801"
     selected: n
