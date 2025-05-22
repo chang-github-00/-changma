@@ -114,42 +114,42 @@ papers:
     thumbnail: "assets/publications/2022_peer/thumbnail.png"
     selected: y
 
-  - title: "A Challenging Benchmark for Low-Resource Learning"
-    authors: "Yudong Wang*, <b>Chang Ma*</b>, Qingxiu Dong, Lingpeng Kong, Jingjing Xu"
-    venue: "ACL 2024 Findings"
-    paper_pdf: "https://arxiv.org/pdf/2303.03840.pdf"
-    code: https://qian2333.github.io/Hard-Bench-Web/
-    thumbnail: "assets/publications/2023_hardbench/thumbnail.png"
-    selected: n
-    generalization: y
+  # - title: "A Challenging Benchmark for Low-Resource Learning"
+  #   authors: "Yudong Wang*, <b>Chang Ma*</b>, Qingxiu Dong, Lingpeng Kong, Jingjing Xu"
+  #   venue: "ACL 2024 Findings"
+  #   paper_pdf: "https://arxiv.org/pdf/2303.03840.pdf"
+  #   code: https://qian2333.github.io/Hard-Bench-Web/
+  #   thumbnail: "assets/publications/2023_hardbench/thumbnail.png"
+  #   selected: n
+  #   generalization: y
 
-  - title: "KS-Lottery: Finding Certified Lottery Tickets for Multilingual Language Models"
-    authors: "Fei Yuan, <b>Chang Ma</b>, Shuai Yuan, Qiushi Sun, Lei Li"
-    venue: "NAACL 2025 Oral"
-    thumbnail: "assets/publications/2024_ks/thumbnail.png"
-    paper_pdf: "https://arxiv.org/pdf/2402.02801"
-    selected: n
-    generalization: y
+  # - title: "KS-Lottery: Finding Certified Lottery Tickets for Multilingual Language Models"
+  #   authors: "Fei Yuan, <b>Chang Ma</b>, Shuai Yuan, Qiushi Sun, Lei Li"
+  #   venue: "NAACL 2025 Oral"
+  #   thumbnail: "assets/publications/2024_ks/thumbnail.png"
+  #   paper_pdf: "https://arxiv.org/pdf/2402.02801"
+  #   selected: n
+  #   generalization: y
   
 
 
-  - title: "Certified Robustness Against Natural Language Attacks by Causal Intervention"
-    authors: "Haiteng Zhao*, <b>Chang Ma*</b>, Xinshuai Dong*, Anh Tuan Luu, Zhi-Hong Deng, Hanwang Zhang"
-    venue: "ICML 2022"
-    paper_pdf: "https://arxiv.org/pdf/2205.12331.pdf"
-    code: https://github.com/zhao-ht/ConvexCertify
-    thumbnail: "assets/publications/2022_ciss/thumbnail.png"
-    selected: n
-    generalization: y
+  # - title: "Certified Robustness Against Natural Language Attacks by Causal Intervention"
+  #   authors: "Haiteng Zhao*, <b>Chang Ma*</b>, Xinshuai Dong*, Anh Tuan Luu, Zhi-Hong Deng, Hanwang Zhang"
+  #   venue: "ICML 2022"
+  #   paper_pdf: "https://arxiv.org/pdf/2205.12331.pdf"
+  #   code: https://github.com/zhao-ht/ConvexCertify
+  #   thumbnail: "assets/publications/2022_ciss/thumbnail.png"
+  #   selected: n
+  #   generalization: y
 
-  - title: "Domain Adaptation via Mutual Information Maximization"
-    authors: "Haiteng Zhao, <b>Chang Ma</b>, Qinyu Chen, Zhihong Deng"
-    venue: "IJCAI 2022 Long Presentation"
-    paper_pdf: "https://arxiv.org/pdf/2110.12184.pdf"
-    code: https://github.com/zhao-ht/SIDA
-    thumbnail: "assets/publications/2021_sida/thumbnail.png"
-    selected: n
-    generalization: y
+  # - title: "Domain Adaptation via Mutual Information Maximization"
+  #   authors: "Haiteng Zhao, <b>Chang Ma</b>, Qinyu Chen, Zhihong Deng"
+  #   venue: "IJCAI 2022 Long Presentation"
+  #   paper_pdf: "https://arxiv.org/pdf/2110.12184.pdf"
+  #   code: https://github.com/zhao-ht/SIDA
+  #   thumbnail: "assets/publications/2021_sida/thumbnail.png"
+  #   selected: n
+  #   generalization: y
 
   - title: "Switch-GPT: an effective method for constrained text generation under few-shot settings"
     authors: "<b>Chang Ma*</b>, Song Zhang*, Gehui Shen, Zhihong Deng"
