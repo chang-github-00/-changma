@@ -1,11 +1,20 @@
 papers:
   
+  - title: "Orion: Computer-Using Agents for Biomedical Research"
+    # authors: "<b>Chang Ma</b>, Haiteng Zhao, Junlei Zhang, Junxian He, Lingpeng Kong"
+    venue: "Release soon!"
+    paper_pdf: ""
+    thumbnail: "assets/publications/2026_orion/thumbnail.png"
+    code: ""
+    selected: y
+    agent: n
+
   - title: "Non-myopic Generation of Language Models for Reasoning and Planning"
     authors: "<b>Chang Ma</b>, Haiteng Zhao, Junlei Zhang, Junxian He, Lingpeng Kong"
     venue: "ICLR 2025"
     paper_pdf: "https://arxiv.org/pdf/2410.17195"
     thumbnail: "assets/publications/2024_predictive/thumbnail.png"
-    code: "https://github.com/chang-github-00/Predictive-Decoding"
+    code: "https://github.com/chang-github-00/LLM-Predictive-Decoding"
     selected: n
     agent: y
 
@@ -18,9 +27,18 @@ papers:
     selected: n
     agent: y
 
+  - title: "ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows"
+    authors: "Qiushi Sun, Zhoumianze Liu, <b>Chang Ma</b>,...,  Xiachong Feng, Xiang Li, Ben Kao, Wenhai Wang, Biqing Qi, Lingpeng Kong, Zhiyong Wu (21 authors)"
+    venue: "ICLR 2026"
+    paper_pdf: "https://arxiv.org/pdf/2505.19897"
+    thumbnail: "assets/publications/2025_scienceboard/thumbnail.png"
+    code: "https://github.com/OS-Copilot/ScienceBoard"
+    selected: n
+    agent: y
+
   - title: "Genius: A Generalizable and Purely Unsupervised Self-Training Framework For Advanced Reasoning"
     authors: "Fangzhi Xu, Hang Yan, <b>Chang Ma</b>, Haiteng Zhao, Qiushi Sun, Kanzhi Cheng, Junxian He, Jun Liu, Zhiyong Wu"
-    venue: "Preprint"
+    venue: "ACL 2025"
     paper_pdf: "https://arxiv.org/pdf/2504.08672"
     code: "https://github.com/xufangzhi/Genius"
     thumbnail: "assets/publications/2025_genius/thumbnail.png"
@@ -30,7 +48,7 @@ papers:
 
   - title: "φ-Decoding: Adaptive Foresight Sampling for Balanced Inference-Time Exploration and Exploitation"
     authors: "Fangzhi Xu, Hang Yan, <b>Chang Ma</b>, Haiteng Zhao, Jun Liu, Qika Lin, Zhiyong Wu"
-    venue: "Preprint"
+    venue: "ACL 2025"
     paper_pdf: "https://arxiv.org/pdf/2503.13288"
     code: "https://github.com/xufangzhi/phi-Decoding"
     thumbnail: "assets/publications/2025_phi/thumbnail.png"
@@ -40,7 +58,7 @@ papers:
   
   - title: "Breaking the Data Barrier – Building GUI Agents Through Task Generalization"
     authors: "Junlei Zhang, Zichen Ding, <b>Chang Ma</b>, Zijie Chen, Qiushi Sun, Zhenzhong Lan, Junxian He"
-    venue: "Preprint"
+    venue: "COLM 2025"
     paper_pdf: "https://arxiv.org/pdf/2504.10127"
     thumbnail: "assets/publications/2025_guimid/thumbnail.png"
     code: "https://github.com/hkust-nlp/GUIMid"
@@ -52,6 +70,7 @@ papers:
     venue: "COLM 2024"
     paper_pdf: "https://arxiv.org/pdf/2402.15809.pdf"
     thumbnail: "assets/publications/2024_learnact/thumbnail.png"
+    code: "https://github.com/zhao-ht/LearnAct"
     selected: n
     agent: y
 
@@ -114,49 +133,49 @@ papers:
     thumbnail: "assets/publications/2022_peer/thumbnail.png"
     selected: y
 
-  # - title: "A Challenging Benchmark for Low-Resource Learning"
-  #   authors: "Yudong Wang*, <b>Chang Ma*</b>, Qingxiu Dong, Lingpeng Kong, Jingjing Xu"
-  #   venue: "ACL 2024 Findings"
-  #   paper_pdf: "https://arxiv.org/pdf/2303.03840.pdf"
-  #   code: https://qian2333.github.io/Hard-Bench-Web/
-  #   thumbnail: "assets/publications/2023_hardbench/thumbnail.png"
-  #   selected: n
-  #   generalization: y
+  - title: "A Challenging Benchmark for Low-Resource Learning"
+    authors: "Yudong Wang*, <b>Chang Ma*</b>, Qingxiu Dong, Lingpeng Kong, Jingjing Xu"
+    venue: "ACL 2024 Findings"
+    paper_pdf: "https://arxiv.org/pdf/2303.03840.pdf"
+    code: https://qian2333.github.io/Hard-Bench-Web/
+    thumbnail: "assets/publications/2023_hardbench/thumbnail.png"
+    selected: n
+    generalization: y
 
-  # - title: "KS-Lottery: Finding Certified Lottery Tickets for Multilingual Language Models"
-  #   authors: "Fei Yuan, <b>Chang Ma</b>, Shuai Yuan, Qiushi Sun, Lei Li"
-  #   venue: "NAACL 2025 Oral"
-  #   thumbnail: "assets/publications/2024_ks/thumbnail.png"
-  #   paper_pdf: "https://arxiv.org/pdf/2402.02801"
-  #   selected: n
-  #   generalization: y
+  - title: "KS-Lottery: Finding Certified Lottery Tickets for Multilingual Language Models"
+    authors: "Fei Yuan, <b>Chang Ma</b>, Shuai Yuan, Qiushi Sun, Lei Li"
+    venue: "NAACL 2025 Oral"
+    thumbnail: "assets/publications/2024_ks/thumbnail.png"
+    paper_pdf: "https://arxiv.org/pdf/2402.02801"
+    selected: n
+    generalization: y
   
 
 
-  # - title: "Certified Robustness Against Natural Language Attacks by Causal Intervention"
-  #   authors: "Haiteng Zhao*, <b>Chang Ma*</b>, Xinshuai Dong*, Anh Tuan Luu, Zhi-Hong Deng, Hanwang Zhang"
-  #   venue: "ICML 2022"
-  #   paper_pdf: "https://arxiv.org/pdf/2205.12331.pdf"
-  #   code: https://github.com/zhao-ht/ConvexCertify
-  #   thumbnail: "assets/publications/2022_ciss/thumbnail.png"
-  #   selected: n
-  #   generalization: y
-
-  # - title: "Domain Adaptation via Mutual Information Maximization"
-  #   authors: "Haiteng Zhao, <b>Chang Ma</b>, Qinyu Chen, Zhihong Deng"
-  #   venue: "IJCAI 2022 Long Presentation"
-  #   paper_pdf: "https://arxiv.org/pdf/2110.12184.pdf"
-  #   code: https://github.com/zhao-ht/SIDA
-  #   thumbnail: "assets/publications/2021_sida/thumbnail.png"
-  #   selected: n
-  #   generalization: y
-
-  - title: "Switch-GPT: an effective method for constrained text generation under few-shot settings"
-    authors: "<b>Chang Ma*</b>, Song Zhang*, Gehui Shen, Zhihong Deng"
-    venue: "AAAI Student Abstract 2021"
-    paper_pdf: "https://ojs.aaai.org/index.php/AAAI/article/view/21642"
-    thumbnail: "assets/publications/2021_few_shot_nlg/thumbnail.png"
+  - title: "Certified Robustness Against Natural Language Attacks by Causal Intervention"
+    authors: "Haiteng Zhao*, <b>Chang Ma*</b>, Xinshuai Dong*, Anh Tuan Luu, Zhi-Hong Deng, Hanwang Zhang"
+    venue: "ICML 2022"
+    paper_pdf: "https://arxiv.org/pdf/2205.12331.pdf"
+    code: https://github.com/zhao-ht/ConvexCertify
+    thumbnail: "assets/publications/2022_ciss/thumbnail.png"
     selected: n
+    generalization: y
+
+  - title: "Domain Adaptation via Mutual Information Maximization"
+    authors: "Haiteng Zhao, <b>Chang Ma</b>, Qinyu Chen, Zhihong Deng"
+    venue: "IJCAI 2022 Long Presentation"
+    paper_pdf: "https://arxiv.org/pdf/2110.12184.pdf"
+    code: https://github.com/zhao-ht/SIDA
+    thumbnail: "assets/publications/2021_sida/thumbnail.png"
+    selected: n
+    generalization: y
+
+  # - title: "Switch-GPT: an effective method for constrained text generation under few-shot settings"
+  #   authors: "<b>Chang Ma*</b>, Song Zhang*, Gehui Shen, Zhihong Deng"
+  #   venue: "AAAI Student Abstract 2021"
+  #   paper_pdf: "https://ojs.aaai.org/index.php/AAAI/article/view/21642"
+  #   thumbnail: "assets/publications/2021_few_shot_nlg/thumbnail.png"
+  #   selected: n
 
 
   
