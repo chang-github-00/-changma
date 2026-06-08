@@ -7,7 +7,7 @@ papers:
     thumbnail: "assets/publications/2026_orion/thumbnail.png"
     code: "https://github.com/Genentech/Orion"
     selected: y
-    agent: y
+    agent: n
 
   - title: "Non-myopic Generation of Language Models for Reasoning and Planning"
     authors: "<b>Chang Ma</b>, Haiteng Zhao, Junlei Zhang, Junxian He, Lingpeng Kong"
