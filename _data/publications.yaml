@@ -1,13 +1,13 @@
 papers:
   
-  - title: "Orion: Computer-Using Agents for Biomedical Research"
-    # authors: "<b>Chang Ma</b>, Haiteng Zhao, Junlei Zhang, Junxian He, Lingpeng Kong"
-    venue: "Release soon!"
-    paper_pdf: ""
+  - title: "Orion: Towards Lab Automation with Computer-Using Agents"
+    authors: "<b>Chang Ma*</b>, Linh T. Trinh*, Matt Bucci, Aviv Regev, Hanchen Wang"
+    venue: "Preprint"
+    paper_pdf: "https://orion-science.github.io/"
     thumbnail: "assets/publications/2026_orion/thumbnail.png"
-    code: ""
+    code: "https://github.com/Genentech/Orion"
     selected: y
-    agent: n
+    agent: y
 
   - title: "Non-myopic Generation of Language Models for Reasoning and Planning"
     authors: "<b>Chang Ma</b>, Haiteng Zhao, Junlei Zhang, Junxian He, Lingpeng Kong"
