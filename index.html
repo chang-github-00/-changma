@@ -225,52 +225,6 @@ Apart from my advisors, I was also deeply inspired by these <a href="collaborato
   </div>
 </div>
 
-<!-- <!-- ========== PROJECTS ========== -->
-<div class="docs-section" id="blogs ">
-  <h4>Talks & Blogs</h4>
-
-    <div class="tab-content">
-      <div class="tab-pane active">
-        {% assign selected_projects = site.data.projects.projects | where: "all", "y" %}
-        {% for project in selected_projects %}
-          {% assign index_modulo = forloop.index0 | modulo:3 %}
-          {% if index_modulo == 0 %}
-            <div class="row">
-          {% endif %}
-          <!-- <img src={{ project.thumbnail }} style="FLOAT: left; MARGIN-BOTTOM: 10px; MARGIN-RIGHT: 20px" alt=""width="200" height="200"> -->
-          <div class="article" onclick="location.href='{{ project.url }}';" style="cursor: pointer;">
-            <h6><b>{{ project.title }}</b></h6>
-            <p>{{ project.topic }}</p>
-            <p>{{ project.subtitle }}</p>
-          </div>
-          
-        </a>
-            <!-- <div class="four columns">
-              <div class="project-container">
-  
-                  <div class="project-image-container">
-                    <a href="{{ project.url }}">
-                      <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                    </a>
-                  </div>
-  
-                  <div class="project-caption">
-                    <b>{{ project.title }}</b> <br/>
-                    {{ project.subtitle }}
-                  </div>
-  
-              </div>
-            </div> -->
-  
-          {% if index_modulo == 2 %}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-  </div>
-
-</div> -->
-
 
 
 <!-- ========== RESUME ========== -->
