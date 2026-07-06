@@ -1,7 +1,7 @@
 experiences:
 
 - place: "GenenTech"
-  time: "June- 2025"
+  time: "June-December 2025"
   title: "Research Intern"
   subtitle: "gRED, Regev Lab"
   category: "work"
@@ -13,7 +13,7 @@ experiences:
   category: "work"
 
 - place: "The University of Hong Kong"
-  time: "Sep 2022 - "
+  time: "Sep 2022 - April 2026"
   title: "Ph.D. Student"
   subtitle: "CS, NLP"
   category: "school"
@@ -39,6 +39,6 @@ experiences:
 - place: "Peking University"
   time: "Sep 2018 - July 2022"
   title: "B.Sc. Student"
-  subtitle: "Machine Intelligence "
+  subtitle: "Computer Science "
   category: "school"
 
